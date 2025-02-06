@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode : 'class',
-  content: ["./src/**/*.{html,js}"],
+  content: [ "./src/**/*.{html,js}",  // برای فایل‌های HTML و JS در پوشه src
+    "./index.html" ],
   theme: {
     extend: {
       borderRadius :{
